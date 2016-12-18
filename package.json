@@ -1,0 +1,44 @@
+{
+  "name": "ts-react-starter",
+  "version": "1.0.0",
+  "description": "Barebones starter project for React with TypeScript",
+  "main": "index.js",
+  "author": "Nick Taylor <nick@iamdeveloper.com>",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "typescript",
+    "boilerplate"
+  ],
+  "scripts": {
+    "start": "cross-env NODE_ENV=dev webpack-dev-server --progress --debug --config --display-error-details",
+    "test": "jest",
+    "test:watch": "npm run test -- --watch"
+  },
+  "jest": {
+    "moduleFileExtensions": ["ts", "tsx", "js"],
+    "transform": {
+      "^.+\\.(ts|tsx)$": "<rootDir>/preprocessor.js"
+    },
+    "testRegex": "/__tests__/.*\\.(ts|tsx|js)$"
+  },
+  "devDependencies": {
+    "@types/jest": "16.0.1",
+    "@types/react": "0.14.55",
+    "@types/webpack": "2.0.0",
+    "awesome-typescript-loader": "3.0.0-beta.17",
+    "cross-env": "3.1.3",
+    "html-webpack-plugin": "2.24.1",
+    "jest": "18.0.0",
+    "tslint": "4.1.1",
+    "tslint-loader": "3.3.0",
+    "typescript": "2.1.4",
+    "webpack": "1.14.0",
+    "webpack-dev-server": "1.16.2"
+  },
+  "dependencies": {
+    "react": "15.4.1",
+    "react-dom": "15.4.1",
+    "redux": "3.6.0"
+  }
+}
