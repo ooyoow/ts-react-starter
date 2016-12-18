@@ -14,16 +14,24 @@
     "build": "cross-env NODE_ENV=prod webpack",
     "start": "cross-env NODE_ENV=dev webpack-dev-server --progress --debug --config --display-error-details",
     "test": "jest",
-    "test:watch": "npm run test -- --watch"
+    "test:watch": "npm run test -- --watch",
+    "workbench": "start-storybook -p 9001"
   },
   "jest": {
-    "moduleFileExtensions": ["ts", "tsx", "js"],
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
     "transform": {
       "^.+\\.(ts|tsx)$": "<rootDir>/preprocessor.js"
     },
     "testRegex": "/__tests__/.*\\.(ts|tsx|js)$"
   },
   "devDependencies": {
+    "@kadira/storybook": "2.35.0",
+    "@kadira/storybook-addon-knobs": "1.7.1",
+    "@kadira/storybook-addons": "1.6.1",
     "@types/jest": "16.0.1",
     "@types/react": "0.14.55",
     "@types/webpack": "2.0.0",
