@@ -1,3 +1,7 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/bxe1t656us4dp5dd?svg=true)](https://ci.appveyor.com/project/nickytonline/ts-react-starter)
+[![Build status](https://img.shields.io/travis/nickytonline/ts-react-starter.svg)](https://img.shields.io/travis/nickytonline/ts-react-starter.svg)
+
+
 ts-react-starter
 ================
 

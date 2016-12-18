@@ -11,6 +11,7 @@
     "boilerplate"
   ],
   "scripts": {
+    "build": "cross-env NODE_ENV=prod webpack",
     "start": "cross-env NODE_ENV=dev webpack-dev-server --progress --debug --config --display-error-details",
     "test": "jest",
     "test:watch": "npm run test -- --watch"
