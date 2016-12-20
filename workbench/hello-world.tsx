@@ -1,7 +1,7 @@
 import { storiesOf } from '@kadira/storybook';
 import { withKnobs, text } from '@kadira/storybook-addon-knobs';
 import * as React from 'react';
-import { Hello } from '../src/hello-world';
+import { Hello } from '../src/components/hello-world';
 
 declare var module;
 
