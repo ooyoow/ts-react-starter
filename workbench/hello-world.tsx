@@ -18,7 +18,7 @@ stories
 
     return (
       <Hello
-        name={text('Label', 'Jane Doe')}
+        name={text('Name', 'Jane Doe')}
         />
     );
   });
