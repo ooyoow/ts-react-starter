@@ -23,3 +23,4 @@ To run the workbench:
 * For more information on using the workbench, see:
   * [React Storybook](https://github.com/storybooks/react-storybook)
   * [React Storybook Knobs Add-on](https://github.com/storybooks/storybook-addon-knobs)
+  * View the [existing workbench](https://bdce4a6f-3cb1-40e2-909a-e17ba59e69b9.sbook.io) online
