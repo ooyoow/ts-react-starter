@@ -7,6 +7,8 @@ ts-react-starter
 
 This is a barebones starter kit for React with TypeScript. The initial goal of this is just to be able to clone a repo and get going with React and TypeScript. I will probably add Redux in the near future, but aside from that, simply consider this a good starting point for yourself to add all the other React goodness that you want in your React/TypeScript project.
 
+Here's the starter kit deployed at [https://ts-react-starter.now.sh](https://ts-react-starter.now.sh).
+
 To get up and running:
 * `npm install` or `yarn` (assuming you have yarn installed globally)
 * From the command line run `npm start` or `yarn start`
