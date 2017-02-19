@@ -12,7 +12,7 @@
   ],
   "scripts": {
     "build": "cross-env NODE_ENV=prod webpack",
-    "start": "cross-env NODE_ENV=dev webpack-dev-server --progress --debug --config --display-error-details",
+    "start": "cross-env NODE_ENV=dev webpack-dev-server --progress --debug --config ./webpack.config.js",
     "test": "jest",
     "test:watch": "npm run test -- --watch",
     "workbench": "start-storybook -p 9001"
@@ -41,9 +41,9 @@
     "jest": "18.0.0",
     "tslint": "4.1.1",
     "tslint-loader": "3.3.0",
-    "typescript": "2.1.4",
-    "webpack": "1.14.0",
-    "webpack-dev-server": "1.16.2"
+    "typescript": "2.1.6",
+    "webpack": "2.2.1",
+    "webpack-dev-server": "2.3.0"
   },
   "dependencies": {
     "react": "15.4.1",
